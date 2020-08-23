@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Utility;
+Exec=sudo {path}
+Icon={iconPath}
+Name=Encrypted Image Mounter
+Terminal=true
+Type=Application
+Version=1.0

@@ -1,0 +1,11 @@
+[Unit]
+Description=Unmounts encrypted images before shutdown
+Before=shutdown.target reboot.target halt.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStop=/usr/bin/env python3 {unmounterPath}
+
+[Install]
+WantedBy=multi-user.target

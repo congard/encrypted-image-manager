@@ -1,0 +1,6 @@
+venv
+__pycache__
+.idea
+out
+src/manager/__pycache__
+src/installer/__pycache__
